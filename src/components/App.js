@@ -48,7 +48,7 @@ class App extends Component {
     const { posts } = this.state;
 
     return (
-      <div className="App__parent">
+      <div className="App__parent"> 
         <Header />
 
         <section className="App__content">
@@ -63,7 +63,7 @@ class App extends Component {
                   date={post.date}
                   id={post.id}
                   updatePost={this.updatePost}
-                  deletePostFn={this.deletePost}
+                  deletePost={this.deletePost}
                   />
                   
             ))
